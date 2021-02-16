@@ -6,6 +6,7 @@ namespace Geometry
      {
           static void Main(string[] args) {
                Rectangle rect = new Rectangle(20, 1);
+               Circle circle = new Circle(5);
 
                Console.WriteLine(rect.Area());
           }
